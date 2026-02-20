@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chicken Egg Image</title>
+    <title>SVG Egg</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .egg {
+            width: 200px;
+            height: 300px;
+            background: radial-gradient(circle at 50% 70%, #FFF 30%, #FFD700 70%);
+            border-radius: 50% 50% 45% 45%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+    </style>
 </head>
 <body>
-    <h1>Chicken Egg</h1>
-    <img src="https://www.publicdomainpictures.net/pictures/300000/velka/chicken-egg-1515205396rcQ.jpg" alt="A Chicken Egg">
+    <div class="egg"></div>
 </body>
 </html>
